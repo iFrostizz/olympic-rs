@@ -1,0 +1,13 @@
+[package]
+name = "olympic-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ethers = { version = "2.0.14", features = ["ws"] }
+eyre = "0.6.12"
+futures = "0.3.30"
+log = "0.4.21"
+tokio = { version = "1.37.0", features = ["macros", "time"] }
